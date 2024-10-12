@@ -33,8 +33,7 @@
     - Cache Debouncing
     - Semaphore, MutEx
 
-
-Find all places where you can cache
-- CDN
-- API Cache
-- 
+### Things to Ponder On
+- Find all places where you can cache
+  - CDN
+  - API Cache
