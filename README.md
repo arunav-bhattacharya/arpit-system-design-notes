@@ -15,27 +15,23 @@
 - [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
 - [Redis](https://redis.io/about/)
 
-### Topics to Cover
+### Systems Designed
 - [Design Online Offline Indicator](https://github.com/arpitbbhayani/system-design-questions/blob/master/online-offline-indicator.md)
 - [Design Blogging Platform](https://github.com/arpitbbhayani/system-design-questions/blob/master/blogging-platform.md)
 
 ### Post Reads
 
+<br/>
 
-### Things Learnt
+### Takeaways
 
 - Framework of Opposites
-
-### Design a Connection Pool
-
-- Use BlockingQueue
-
-### Caching
-
-Same request comes more than once cache miss happens, that routes to 
-- Request Hedging
-- Cache Debouncing
-- Semaphore, MutEx
+- Design a Connection Pool using Blocking Queue
+- Performance issues due to caching
+  - Same request is fired at the same time and that is not available in Cache, but present in DB. Read about
+    - Request Hedging
+    - Cache Debouncing
+    - Semaphore, MutEx
 
 
 Find all places where you can cache
